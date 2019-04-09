@@ -36,18 +36,12 @@ public class Lector {
              Amigo temp = new Amigo(ID, Nombre, ApellP, ApellM, TelCasa, TelCel);
              datos.add(temp);
          }
-                 
-         
+              
          }catch(FileNotFoundException e){
              System.out.println("El archivo no existe");
          }catch(IOException e){
              System.out.println("Archivo Corrupto");
          }
-         
          System.out.println("Termine");
-         
-     }
-     
-     
-     
+    }
 }
