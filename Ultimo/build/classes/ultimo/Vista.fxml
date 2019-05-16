@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="ultimo.VistaController">
+   <children>
+      <Label layoutX="250.0" layoutY="42.0" prefHeight="57.0" prefWidth="121.0" text="Vista">
+         <font>
+            <Font size="46.0" />
+         </font>
+      </Label>
+      <Label fx:id="labNombre" layoutX="250.0" layoutY="153.0" prefHeight="25.0" prefWidth="103.0">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="labAp" layoutX="250.0" layoutY="216.0" prefHeight="47.0" prefWidth="103.0">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="labTel" layoutX="250.0" layoutY="279.0" prefHeight="45.0" prefWidth="103.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="76.0" layoutY="159.0" mnemonicParsing="false" onAction="#atras" prefHeight="117.0" prefWidth="89.0" text="&lt;">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Button>
+      <Button layoutX="463.0" layoutY="161.0" mnemonicParsing="false" onAction="#avanza" prefHeight="117.0" prefWidth="97.0" text="&gt;">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
